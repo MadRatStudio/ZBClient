@@ -1,0 +1,19 @@
+name: client
+description: Client
+version: 0.0.1
+environment:
+  sdk: '^2.0.0'
+dependencies:
+  angular: ^5.0.0
+  angular_components: ^0.9.1
+  json_serializable: ^1.3.0
+dev_dependencies:
+  sass_builder: ^2.0.0
+  build_runner: ^0.10.0
+  build_test: ^0.10.2
+  build_web_compilers: ^0.4.0
+transformers:
+- angular:
+    entry_points:
+      - web/main.dart
+      - test/**_test.dart
