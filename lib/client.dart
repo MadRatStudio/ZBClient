@@ -1,0 +1,1 @@
+export 'src/component/admin/screen_admin.dart';

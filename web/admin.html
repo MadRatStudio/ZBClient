@@ -1,0 +1,22 @@
+<html>
+
+<head>
+    <title>ZB - Admin</title>
+    <script>
+        // WARNING: DO NOT set the <base href> like this in production!
+        // Details: https://webdev.dartlang.org/angular/guide/router
+        (function () {
+            var m = document.location.pathname.match(/^(\/[-\w]+)+\/web($|\/)/);
+            document.write('<base href="' + (m ? m[0] : '/') + '" />');
+        }());
+    </script>
+</head>
+
+<body>
+    <!-- Will be bootstrapped by Angular -->
+    <app-component></app-component>
+</body>
+<script type="application/dart" src="main.dart"></script>
+<script src="packages/browser/dart.js"></script>
+
+</html>

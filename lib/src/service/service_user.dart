@@ -3,6 +3,7 @@ import 'package:client/src/domain/user/user_data.dart';
 
 @Injectable()
 class ServiceUser {
+
   UserData data;
   
 
